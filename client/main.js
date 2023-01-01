@@ -6,17 +6,7 @@ const chatContainer = document.querySelector('#chat_container');
 
 let loadInterval;
 
-function loader(eLement) {
-  
 
-  loadInterval = setInterval(() => {
-    eLement.textContent += '.';
-
-    if (eLement.textContent === '....') {
-      eLement.textContent = '';
-    }
-  }, 300)
-}
 
 function typeText(eLement, text) {
   let index = 0;
